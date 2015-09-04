@@ -1,0 +1,60 @@
+/**
+ *
+ * Enticers: 3D Boxes
+ *
+ **/
+#enticers { position: relative; z-index: 1; background: url(../img/logo_pattern.jpg) left top repeat; padding: 70px 0; }
+#enticers .container { padding-left: 6px !important; }
+#enticers .enticer { float: left; width: 300px; height: 186px; margin: 0 0 20px 20px; }
+#enticers .enticer.first { width: 620px; height: 390px; margin: 0; }
+#enticers .enticer a { width: 100%; height: 100%; color: #fff; display: block; position: relative; cursor: pointer;
+	-webkit-perspective: 1500px;
+	-moz-perspective: 1500px;
+	perspective: 1500px; }
+#enticers .enticer a .content_holder { pointer-events: none; position: absolute; top: 0; left: 0; display: block; width: 100%; height: 100%;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-transition: all .3s ease-out;
+	-moz-transition: all .3s ease-out;
+	transition: all .3s ease-out;
+	-webkit-transform: translatez(-93px);
+	-moz-transform: translatez(-93px);
+	transform: translatez(-93px); }
+#enticers .enticer.first a .content_holder {
+	-webkit-transform: translatez(-195px);
+	-moz-transform: translatez(-195px);
+	transform: translatez(-195px); }
+#enticers .enticer a:hover .content_holder { z-index: 100;
+	-webkit-transform: translatez(-93px) rotatex(90deg);
+	-moz-transform: translatez(-93px) rotatex(90deg);
+	transform: translatez(-93px) rotatex(90deg); }
+#enticers .enticer.first a:hover .content_holder {
+	-webkit-transform: translatez(-195px) rotatex(90deg);
+	-moz-transform: translatez(-195px) rotatex(90deg);
+	transform: translatez(-195px) rotatex(90deg); }
+#enticers .enticer a .content_holder .enticer_image,
+#enticers .enticer a .content_holder .text { display: block; width: 100%; height: 100%; position: absolute; top: 0; left: 0; }
+#enticers .enticer a .content_holder .enticer_image { z-index: 10;
+	-webkit-transform: rotatex(0deg) translatez(93px);
+	-moz-transform: rotatex(0deg) translatez(93px);
+	transform: rotatex(0deg) translatez(93px); }
+#enticers .enticer.first a .content_holder .enticer_image {
+	-webkit-transform: rotatex(0deg) translatez(195px);
+	-moz-transform: rotatex(0deg) translatez(195px);
+	transform: rotatex(0deg) translatez(195px); }
+#enticers .enticer a .content_holder .text { background: #001f22; color: #fff; width: 260px; height: 146px; padding: 20px;
+	-webkit-transform: rotatex(-90deg) translatez(93px);
+	-moz-transform: rotatex(-90deg) translatez(93px);
+	transform: rotatex(-90deg) translatez(93px); }
+#enticers .enticer.first a .content_holder .text { padding: 30px 50px; width: 520px; height: 330px;
+	-webkit-transform: rotatex(-90deg) translatez(195px);
+	-moz-transform: rotatex(-90deg) translatez(195px);
+	transform: rotatex(-90deg) translatez(195px); }
+#enticers .enticer.first a .content_holder .text p {
+	font-size: 18px;
+}
+#enticers .enticer a .content_holder .text p {
+	line-height: 1.5;
+	font-size: 16px;
+}

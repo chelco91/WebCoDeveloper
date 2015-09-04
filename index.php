@@ -39,10 +39,8 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-8 col-md-offset-2">
-						<div class="enticers">
-							<?php require_once("lib/templates/enticers.php"); ?>
-						</div>
+					<div class="col-md-10 col-md-offset-1">
+						<?php require_once("lib/templates/rotational-boxes.php"); ?>
 					</div>
 				</div>
 			</div>
