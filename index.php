@@ -7,6 +7,12 @@
 	</head>
 
 	<body>
+		<div class="container">
+			<header>
+				<?php require_once("lib/templates/header.php"); ?>
+			</header>
 
+
+		</div>
 	</body>
 </html>
