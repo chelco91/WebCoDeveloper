@@ -2,16 +2,19 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
-<!-- Font Awesome -->
-<link type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet"/>
-
 <!-- Bootstrap Latest compiled and minified CSS -->
 <link type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"/>
 
 <!-- Optional Bootstrap theme -->
 <link type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" rel="stylesheet"/>
 
-<!-- Link to custom CSS file(s) -->
+<!-- Font Awesome -->
+<link type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet"/>
+
+<!-- Google Fonts -->
+<link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+
+<!-- Custom CSS file(s) -->
 <link type="text/css" href="lib/css/styles.css" rel="stylesheet"/>
 <link type="text/css" href="lib/css/rotational-boxes.css" rel="stylesheet"/>
 
@@ -30,6 +33,9 @@
 
 <!-- Latest compiled and minified Bootstrap JavaScript, all compiled plugins included -->
 <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+<!-- stellar.js plugin -->
+<script type="text/javascript" src="js/jquery.stellar.min.js"></script>
 
 <!-- Angular.js -->
 <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
