@@ -34,8 +34,11 @@
 <!-- Latest compiled and minified Bootstrap JavaScript, all compiled plugins included -->
 <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
-<!-- stellar.js plugin -->
-<script type="text/javascript" src="js/jquery.stellar.min.js"></script>
+<!-- Stellar.js plugin -->
+<script type="text/javascript" src="lib/js/jquery.stellar.min.js"></script>
+
+<!-- Custom JS/jQuery -->
+<script type="text/javascript" src="lib/js/custom.js"></script>
 
 <!-- Angular.js -->
 <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
